@@ -44,10 +44,6 @@ app.on('ready', function () {
   start();
 });
 
-app.on('ready', function () {
-  autoUpdater.checkForUpdatesAndNotify();
-});
-
 autoUpdater.on('update-not-available', (info) => {
 
 })
