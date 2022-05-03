@@ -22,7 +22,7 @@
   "build": {
     "appId": "com.comp.client",
     "icon": "logo.ico",
-    "executableName": "Comp Client",
+    "productName": "Comp Client",
     "publish": [
       {
         "provider": "github",
