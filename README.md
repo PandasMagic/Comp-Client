@@ -6,6 +6,8 @@ Competitve Client for ev.io
 |-|-|
 | Windows | `.exe` |
 
+More to come soon!
+
 ## Installation:
 1. Install the Client Setup exe file found in Releases
 2. Run it.
