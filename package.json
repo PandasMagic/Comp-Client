@@ -1,0 +1,34 @@
+{
+  "name": "comp-client",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "^23.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Pandasmagic",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "electron-store": "^8.0.1",
+    "electron-updater": "^5.0.1"
+  },
+  "build": {
+    "appId": "com.comp.client",
+    "icon": "logo.ico",
+    "executableName": "Comp Client",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "PandasMagic",
+        "repo": "Comp-Client"
+      }
+    ]
+  }
+}
